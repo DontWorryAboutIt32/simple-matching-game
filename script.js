@@ -84,7 +84,6 @@ function doCardsMatch(cardObject1, cardObject2) {
   }
   return false;
 }
-//doCardsMatchTest();
 
 /* The 'counters' object below is used as a dictionary to store our counter names and their respective values. Do you remember using objects as dictionaries? If not, go back to that video lesson in HQ to review. This object is empty for now but we'll fill it up in the following function. */
 let counters = {};
