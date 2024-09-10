@@ -45,8 +45,6 @@ function shuffleCardImageClasses() {
 	CDN: https://cdnjs.com/libraries/underscore.js/1.4.1
 	Shuffle: https://www.tutorialspoint.com/underscorejs/underscorejs_shuffle.htm 
  
-	NOTE: Ignore the "require" syntax shown in the documentation as this is for non-browser environments. The '_' variable will already be available to you from loading the CDN. */
-
   /* Step 3: Return the shuffled array of class names. */
   return _.shuffle(cardClasses);
 }
